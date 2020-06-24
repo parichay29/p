@@ -77,8 +77,8 @@
                         <c:forEach var="temp" items="${homepage}" varStatus="loop">
                         	${loop.index+1}. data
                         <ul>
-                        	<li>${temp[0]}</li>
-                        	<li>${temp[1]}</li>
+                        	<li>${temp.aboutus}</li>
+                        	<li>${temp.content}</li>
                         </ul>
                         	
                         	<br>
